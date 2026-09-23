@@ -96,10 +96,10 @@ function BookingDetailContent() {
 
       <div className="fixed bottom-0 w-full max-w-[480px] p-6 bg-gradient-to-t from-dark-bg via-dark-bg to-transparent">
         <Link 
-          href="/booking/success"
+          href={`/booking/payment?barber=${barberId}&date=${date}&time=${time}`}
           className="block w-full bg-brand text-black font-semibold py-4 rounded-full text-center hover:bg-brand-light transition-colors"
         >
-          Konfirmasi Booking
+          Bayar Sekarang
         </Link>
       </div>
     </main>

@@ -32,9 +32,9 @@ export default function Splash() {
         >
           Mulai Booking
         </Link>
-        <button className="text-sm text-text-secondary hover:text-white transition-colors">
+        <Link href="/login" className="text-sm text-text-secondary hover:text-white transition-colors">
           Login / Daftar
-        </button>
+        </Link>
       </div>
     </main>
   );
