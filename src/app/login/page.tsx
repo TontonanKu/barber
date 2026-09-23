@@ -68,8 +68,6 @@ export default function Login() {
           </div>
 
           <motion.button 
-            whileHover={{ scale: 1.02 }}
-            whileTap={{ scale: 0.98 }}
             type="submit" 
             className="w-full bg-brand text-black font-semibold py-4 rounded-full mt-4"
           >

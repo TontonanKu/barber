@@ -100,8 +100,6 @@ export default function Home() {
             {barbers.map((barber, i) => (
               <Link href="/booking/barber" key={i}>
                 <motion.div 
-                  whileHover={{ scale: 1.05 }}
-                  whileTap={{ scale: 0.95 }}
                   className="bg-dark-card rounded-2xl p-3 flex flex-col gap-2 items-center text-center shadow-lg h-full"
                 >
                   <div className="w-full aspect-square rounded-xl overflow-hidden mb-1 relative">

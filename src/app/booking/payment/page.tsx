@@ -30,12 +30,14 @@ function PaymentContent() {
           Silakan scan kode QRIS di bawah ini menggunakan aplikasi M-Banking atau e-Wallet Anda.
         </p>
 
-        {/* QRIS Image Container */}
-        <div className="bg-white p-4 rounded-3xl w-full max-w-[300px] mb-8 relative shadow-[0_0_30px_rgba(255,255,255,0.1)]">
-          <div className="w-full aspect-[3/4] relative">
-            {/* The user provided a portrait QRIS image */}
-            <Image src="/qris.png" alt="QRIS Kazura Store" fill className="object-contain" />
-          </div>
+        <div className="bg-white p-4 rounded-3xl w-full max-w-[320px] mb-8 relative shadow-[0_0_30px_rgba(255,255,255,0.1)]">
+          <Image 
+            src="/qris.png" 
+            alt="QRIS Kazura Store" 
+            width={400} 
+            height={600} 
+            className="w-full h-auto object-contain"
+          />
         </div>
 
         {/* Total to pay */}

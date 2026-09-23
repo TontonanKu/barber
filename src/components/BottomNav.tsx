@@ -37,7 +37,6 @@ export default function BottomNav() {
               } transition-colors`}
             >
               <motion.div
-                whileTap={{ scale: 0.8 }}
                 animate={isActive ? { y: -2 } : { y: 0 }}
               >
                 <Icon size={24} className={isActive ? "fill-brand/20" : ""} />
